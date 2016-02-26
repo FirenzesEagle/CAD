@@ -1,0 +1,955 @@
+INFO  2015-11-22 14:27:24,467 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 14:27:24,842 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 14:27:26,059 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 14:27:26,487 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 14:27:26,519 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 14:27:26,519 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 14:27:26,628 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 14:27:27,127 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 14:27:27,143 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 14:27:36,566 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 14:27:42,200 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-11-22 14:36:28,364 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 14:36:28,562 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 14:36:29,796 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 14:36:30,519 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 14:36:30,691 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 14:36:30,691 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 14:36:30,843 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 14:36:31,508 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 14:36:31,526 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 14:36:41,815 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 14:36:48,006 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-11-22 15:44:05,076 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 15:44:05,217 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 15:44:06,480 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 15:44:06,812 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 15:44:06,849 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 15:44:06,851 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 15:44:07,207 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 15:44:07,826 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 15:44:07,857 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 15:44:17,139 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 15:44:22,451 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 15:45:01,113  - ExceptionInterceptor:intercept 
+ERROR 2015-11-22 15:45:52,404 Template processing error: "Expression openid is undefined on line 28, column 75 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression openid is undefined on line 28, column 75 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${openid} [on line 28, column 73 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression openid is undefined on line 28, column 75 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 15:45:52,451 Expression openid is undefined on line 28, column 75 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 15:54:40,837 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 15:54:40,977 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 15:54:42,599 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 15:54:42,880 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 15:54:42,927 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 15:54:42,927 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 15:54:42,989 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 15:54:43,536 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 15:54:43,567 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 15:54:52,373 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 15:54:58,062 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 15:55:18,309 Template processing error: "Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${shopid} [on line 27, column 93 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 15:55:18,390 Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+ERROR 2015-11-22 15:55:22,469 Template processing error: "Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${shopid} [on line 27, column 93 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 15:55:22,476 Expression shopid is undefined on line 27, column 95 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 15:57:05,642 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 15:57:05,767 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 15:57:07,577 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 15:57:07,859 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 15:57:07,890 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 15:57:07,890 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 15:57:07,937 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 15:57:08,358 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 15:57:08,373 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 15:57:17,662 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 15:57:23,077 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-11-22 16:08:40,473 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:08:40,613 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:08:41,815 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:08:42,178 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:08:42,210 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:08:42,210 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:08:42,319 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:08:42,849 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:08:42,865 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:08:51,998 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:08:57,460 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-11-22 16:13:23,718 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:13:23,891 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:13:25,361 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:13:25,681 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:13:25,744 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:13:25,760 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:13:25,822 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:13:26,517 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:13:26,542 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:13:36,586 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:13:42,088 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 16:13:57,084 Template processing error: "Expression openid is undefined on line 27, column 195 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression openid is undefined on line 27, column 195 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${openid} [on line 27, column 193 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression openid is undefined on line 27, column 195 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 16:13:57,132 Expression openid is undefined on line 27, column 195 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 16:19:40,724 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:19:40,849 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:19:42,275 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:19:42,562 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:19:42,624 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:19:42,640 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:19:42,687 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:19:43,202 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:19:43,233 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:19:52,757 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:19:58,453 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-11-22 16:22:41,106 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:22:41,247 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:22:42,453 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:22:42,965 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:22:43,010 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:22:43,010 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:22:43,088 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:22:43,627 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:22:43,643 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:22:52,788 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:22:57,987 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 16:23:28,023 Template processing error: "Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${openid} [on line 27, column 130 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 16:23:28,059 Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 16:25:50,572 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:25:50,729 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:25:51,961 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:25:52,259 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:25:52,305 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:25:52,305 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:25:52,352 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:25:52,867 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:25:52,898 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:26:03,602 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:26:09,275 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 16:26:26,115 Template processing error: "Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${openid} [on line 27, column 130 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 16:26:26,164 Expression openid is undefined on line 27, column 132 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 16:30:16,431 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:30:16,587 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:30:17,850 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:30:18,148 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:30:18,179 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:30:18,179 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:30:18,257 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:30:18,772 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:30:18,787 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:30:28,445 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:30:34,271 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 16:35:34,031 Template processing error: "Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${openid} [on line 27, column 134 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 16:35:34,157 Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 16:42:22,475 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:42:22,608 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:42:25,478 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:42:25,801 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:42:25,850 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:42:25,852 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:42:25,905 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:42:26,461 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:42:26,476 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:42:36,636 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:42:42,485 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-11-22 16:43:13,221 Template processing error: "Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl." - Log4JLoggerFactory$Log4JLogger:error 
+
+Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+The problematic instruction:
+----------
+==> ${openid} [on line 27, column 134 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:259)
+	at org.apache.struts2.views.freemarker.FreemarkerResult.doExecute(FreemarkerResult.java:215)
+	at org.apache.struts2.dispatcher.StrutsResultSupport.execute(StrutsResultSupport.java:186)
+	at com.opensymphony.xwork2.DefaultActionInvocation.executeResult(DefaultActionInvocation.java:371)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:275)
+	at com.siims.framework.exception.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:60)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter.doFilter(StrutsExecuteFilter.java:93)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:91)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1288)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:443)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:722)
+ERROR 2015-11-22 16:43:13,294 Expression openid is undefined on line 27, column 136 in ui/ftl/vipcardb2cftl/VIP-card-suc.ftl. - ExceptionInterceptor:intercept 
+INFO  2015-11-22 16:49:06,947 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:49:07,117 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 16:49:08,311 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 16:49:08,877 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:49:08,926 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:49:08,929 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 16:49:08,984 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 16:49:09,704 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:49:09,725 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 16:49:19,691 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 16:49:25,632 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-11-22 17:02:26,705 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 17:02:26,847 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-11-22 17:02:28,001 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-11-22 17:02:28,266 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-11-22 17:02:28,298 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 17:02:28,298 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-11-22 17:02:28,360 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-11-22 17:02:28,859 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 17:02:28,875 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-11-22 17:02:38,887 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-11-22 17:02:44,193 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 

@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+header .log
+{
+	margin-left:100px;
+}
+*{
+	padding:0;
+	margin:0;
+}
+header .userinf
+{
+	margin-right:100px;
+	float:right;
+	margin-top:10px;
+}
+.log,.userinf
+{
+	vertical-align:middle;
+	float:left;
+}
+.name,.touxiang
+{
+	vertical-align:middle;
+}
+.clearfix:before,.clearfix:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;	
+}
+.left
+{
+	float:left;
+	width:15%;
+	margin-top:50px;
+	margin-left:50px;
+}
+.right
+{
+	float:left;
+	background-color:#F5F5F5;
+	width:75%;
+	padding:20px;
+}
+.cont
+{
+	line-height:40px;
+	position:relative;
+}
+b
+{
+	color:#F00;
+}
+.content
+{
+	
+	margin:0px;
+	padding:10px;
+}
+.back
+{
+	width:100px;
+	height:40px;
+	margin-top:7px;
+	font-size:18px;
+	color:black;
+	background-color:#F5F5F5;
+}
+button
+{
+	background-color:#39F;
+	color:white;
+	width:100px;
+	height:25px;
+}
+.a1,.a2,.a11
+{
+	vertical-align:top;
+}
+.a2,.a3
+{
+	vertical-align:bottom;
+}
+.b1,.b2,.b11
+{
+	vertical-align:top;
+}
+.b2,.b3
+{
+	vertical-align:bottom;
+}
+.c1,.c2
+{
+	vertical-align:top;
+}
+.c3,.view,.submit
+{
+	vertical-align:bottom;
+}
+.newclass
+{
+	padding:10px;
+	background-color:#CCC;
+	box-shadow:2px 2px 2px #CCCCCC;
+	position:absolute;
+	top:75px;
+	left:405px;
+	display: none;
+}
+#imgOne{display: none;}
+.file2{display: none;}
+.b2
+{
+	position: relative;
+	width: 150px;
+	display: inline;
+}
+.c2
+{
+	width:55%;
+	height: 180px;
+}
+.c2,.c3,.c4
+{
+	vertical-align:bottom;
+}
+img
+{
+	max-width:300px;
+	max-height:270px;
+}

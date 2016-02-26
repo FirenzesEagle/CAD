@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+	<group name="demo.demo">
+		<css>classpath:ui/css/demo.css</css>
+		<js>classpath:ui/js/demo.js</js>
+	</group>
+	<group name="demo.jquery">
+		<js>classpath:ui/js/jquery-1.7.1.min.js</js>
+	</group>
+	
+
+	<group name="common.common">
+		<js>classpath:ui/js/jquery-1.7.1.min.js</js>
+		<js>classpath:ui/js/baseUrl.js</js>
+	</group>
+	<group name="shopIndex.shopIndex">
+		<js>classpath:ui/js/toC/shop-index.js</js>
+		<css>classpath:ui/css/toC/shopIndex.css</css>
+	</group>
+	<group name="shopCart.shopCart">
+		<js>classpath:ui/js/toC/MsgBox.js</js>
+		<js>classpath:ui/js/toC/shopcart.js</js>
+		<css>classpath:ui/css/toC/shop-cart.css</css>
+		<css>classpath:ui/css/toC/MsgBox.css</css>
+	</group>
+	
+	<group name="accountManage.accountManage">
+		<js>classpath:ui/js/toB/accountManage.js</js>
+		<js>classpath:ui/js/toB/global.js</js>
+		<js>classpath:ui/js/toB/MsgBox.js</js>
+		<css>classpath:ui/css/toB/accountManage.css</css>
+		<css>classpath:ui/css/toB/MsgBox.css</css>
+	</group>
+	<group name="bind.bind">
+		<js>classpath:ui/js/toB/bind.js</js>
+		<css>classpath:ui/css/toB/bind.css</css>
+	</group>
+	
+	<group name="szb.yuyueSearch">
+		<css>classpath:ui/css/toB/yuyueSearch.css</css>
+		<js>classpath:ui/js/toB/yuyueSearch.js</js>
+	</group>
+	
+	<group name = "szb.MsgBox">
+		<css>classpath:ui/css/toB/MsgBox.css</css>
+		<js>classpath:ui/js/toB/MsgBox.js</js>
+	</group>
+	
+	<group name = "szb.orderManage">
+		<js>classpath:ui/js/toB/orderManage.js</js>
+		<css>classpath:ui/css/toB/orderManage.css</css>
+	</group>
+	<group name = "szb.orderInit">
+		<js>classpath:ui/js/toB/orderInit.js</js>
+	</group>
+	<group name = "szb.orderDetail">
+		<js>classpath:ui/js/toB/orderDetail.js</js>
+	</group>
+	
+	<group name = "szb.serviceBox">
+		<js>classpath:ui/js/toB/serviceBox.js</js>
+		<css>classpath:ui/css/toB/serviceBox.css</css>
+	</group>
+	<group name="szb.jquery">
+		<js>classpath:ui/js/jquery-1.7.1.min.js</js>
+	</group>
+	<group name="szb.baseUrl">
+		<js>classpath:ui/js/baseUrl.js</js>
+	</group>
+	<group name = "szb.baseurl">
+		<js>classpath:ui/js/toB/baseurl.js</js>
+	</group>
+	
+	<group name = "szb.global">
+		<js>classpath:ui/js/toB/global.js</js>
+	</group>
+	
+	<group name="jquery">
+		<js>classpath:ui/js/jquery-1.7.1.min.js</js>
+	</group>
+	
+	<group name="vipcard.vipcard">
+		<css>classpath:ui/css/vipcardp2bcss/vipcard.css</css>
+	</group>
+	
+	<group name="global">
+		<js>classpath:ui/js/vipcardp2bjs/global.js</js>
+	</group>
+	
+	<group name="vipcard.selectType">
+		<js>classpath:ui/js/vipcardp2bjs/vipcardSelectType.js</js>
+	</group>
+	
+	<group name="vipcard.vipcardviplist">
+		<js>classpath:ui/js/vipcardp2bjs/vipcardviplist.js</js>
+	</group>
+	
+	<group name="md5">
+		<js>classpath:ui/js/vipcardp2bjs/md5.js</js>
+	</group>
+	
+	<group name="vipcard.collectmoney">
+		<js>classpath:ui/js/vipcardp2bjs/membershipPay.js</js>
+	</group>
+	
+	<group name="vipcard.p2b.MsgBox">
+		<js>classpath:ui/js/vipcardp2bjs/MsgBox.js</js>
+		<css>classpath:ui/css/vipcardp2bcss/MsgBox.css</css>
+	</group>
+	
+	<group name="vipcard.p2b.membershipRuleManage">
+		<js>classpath:ui/js/vipcardp2bjs/membershipRuleManage.js</js>
+	</group>
+	
+	<group name="vipcard.p2b.membershipRule">
+		<js>classpath:ui/js/vipcardp2bjs/membershipRule.js</js>
+	</group>
+	
+	
+	
+	
+	<group name="vipcard.myvipcard">
+		<css>classpath:ui/css/vipcardb2ccss/my-VIPCard.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/my-VipCard.js</js>
+	</group>
+	
+	<group name="vipcard.baseUrl">
+		<js>classpath:ui/js/vipcardb2cjs/baseUrl.js</js>
+	</group>
+	
+	<group name="vipcard.get-VIPCard">
+		<css>classpath:ui/css/vipcardb2ccss/get-VIPCard.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/get-VipCard.js</js>
+	</group>
+	
+	<group name="vipcard.VIPCard-detail-get">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-detail-get.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-detail-get.js</js>
+	</group>
+	
+	<group name="vipcard.my-bill">
+		<css>classpath:ui/css/vipcardb2ccss/my-bill.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/my-bill.js</js>
+	</group>
+	
+	<group name="vipcard.VIPCard-pay-byTimes">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-pay-byTimes.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-pay-byTimes.js</js>
+	</group>
+	
+	<group name="vipcard.VIPCard-pay-byMoney">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-pay-byMoney.css</css>
+	</group>
+	
+	<group name="vipcard.MsgBox">
+		<css>classpath:ui/css/vipcardb2ccss/MsgBox.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/MsgBox.js</js>
+	</group>
+	
+	<group name="vipcard.md5">
+		<js>classpath:ui/js/vipcardb2cjs/md5.js</js>
+	</group>
+	
+	<group name="vipcard.VIPCard-pay-suc">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-pay-suc.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-pay-suc.js</js>
+	</group>
+	
+	<group name="vipcard.VIPCard-detail-notget">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-detail-notget.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-detail-noget.js</js>
+	</group>
+	
+	<group name="vipcard.fillout-VIPInfo">
+		<css>classpath:ui/css/vipcardb2ccss/fillout-VIPInfo.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/fillout-VIPInfo.js</js>
+	</group>
+	
+	<group name="vipcard.confirm-VIPInfo">
+		<css>classpath:ui/css/vipcardb2ccss/confirm-VIPInfo.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/confirm-VipInfo.js</js>
+	</group>
+	
+	<group name="wx.jquery">
+		<js>classpath:ui/js/jquery-1.7.1.min.js</js>
+	</group>
+	<group name="wx.queryTiXian">
+		<js>classpath:ui/js/tixianManage/queryTiXian.js</js>
+		<css>classpath:ui/css/tixianManage/queryTiXian.css</css>
+	</group>
+	<group name="wx.withdrawIndex">
+		<js>classpath:ui/js/tixianManage/withdrawIndex.js</js>
+		<css>classpath:ui/css/tixianManage/withdraw.css</css>
+	</group>
+	<group name="wx.withdrawBase">
+		<js>classpath:ui/js/tixianManage/baseurl.js</js>
+		<js>classpath:ui/js/tixianManage/global.js</js>
+	</group>
+	<group name="wx.withdrawPage">
+		<js>classpath:ui/js/tixianManage/withdrawPage.js</js>
+	</group>
+	<group name="wx.withdrawSuc">
+		<js>classpath:ui/js/tixianManage/withdrawSuc.js</js>
+	</group>
+	<group name="wx.turnoverList">
+		<js>classpath:ui/js/tixianManage/turnoverList.js</js>
+	</group>
+	<group name="wx.withdrawRec">
+		<js>classpath:ui/js/tixianManage/withdrawRec.js</js>
+	</group>
+	
+	<group name="szb.time">
+		<js>classpath:ui/js/tixianManage/jquery.date_input.pack.js</js>
+		<css>classpath:ui/css/tixianManage/time.css</css>
+	</group>
+	
+	
+	
+	<group name="szb.goods">
+		<css>classpath:ui/css/shop-goodlist.css</css>
+		<js>classpath:ui/js/shop-goodlist.js</js>
+	</group>
+	
+	<group name = "szb.lf.goodsmanage">
+		<css>classpath:ui/css/lf/goodsManage_css.css</css>
+		<js>classpath:ui/js/lf/goodsManage_js.js</js>
+	</group>
+	
+	<group name = "szb.lf.servicemanage">
+		<css>classpath:ui/css/lf/serviceManage_css.css</css>
+		<js>classpath:ui/js/lf/serviceManage_js.js</js>
+	</group>
+	
+	<group name = "szb.lf.addgoods">
+		<css>classpath:ui/css/lf/addGoods_css.css</css>
+		<js>classpath:ui/js/lf/addGoods_js.js</js>
+	</group>
+	
+	<group name = "szb.lf.addservice">
+		<css>classpath:ui/css/lf/addService_css.css</css>
+		<js>classpath:ui/js/lf/addService_js.js</js>
+	</group>
+	
+	<group name = "szb.lf.editgoods">
+		<css>classpath:ui/css/lf/editGoods_css.css</css>
+		<js>classpath:ui/js/lf/editGoods_js.js</js>
+	</group>
+	
+	<group name = "szb.lf.editservice">
+		<css>classpath:ui/css/lf/editService_css.css</css>
+		<js>classpath:ui/js/lf/editService_js.js</js>
+	</group>
+	
+	<group name="szb.lf.uploadimg">
+		<js>classpath:ui/js/lf/tocuploadImg.js</js>
+	</group>
+	
+	<group name="szb.lf.ajaxupload">
+		<js>classpath:ui/js/lf/jquery.ajaxUpload.js</js>
+	</group>
+<group name="szb.loginPC">
+	<css>classpath:ui/css/login_css.css</css>
+    <js>classpath:ui/js/jquery-1.7.1.min.js</js>
+    <js>classpath:ui/js/lf/baseUrl.js</js>
+    <js>classpath:ui/js/toB/md5.js</js>
+	<js>classpath:ui/js/login_js.js</js>
+	</group>
+<group name="szb.lf.baseUrl">
+		<js>classpath:ui/js/lf/baseUrl.js</js>
+	</group>
+	
+</groups>	

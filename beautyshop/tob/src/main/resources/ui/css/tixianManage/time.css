@@ -1,0 +1,23 @@
+/*---------------------------------------时间面板--------------------------------------------*/
+.date_selector, .date_selector *{width: auto;height: auto;border: none;background: none;margin: 0;padding: 0;text-align: left;text-decoration: none;}
+.date_selector{background:#fbfbfb;border: 1px solid #ccc;padding: 5px;margin:0;margin-top:-1px;position: absolute;z-index:100000;display:none;border-radius: 3px;box-shadow: 0 0 5px #aaa;box-shadow:0 2px 2px #ccc; width:200px;}
+.date_selector_ieframe{position: absolute;z-index: 99999;display: none;}
+.date_selector .nav{width: 100%;}
+.date_selector .nav p{clear: none;}
+.date_selector .month_nav, .date_selector .year_nav{margin: 0 0 3px 0;padding: 0;display: block;position: relative;text-align: center;}
+.date_selector .month_nav{float: left;width: 55%;}
+.date_selector .year_nav{float: right;width: 42%;}
+.date_selector .month_name, .date_selector .year_name{font-weight:normal;line-height: 15px; font-size:0.6em;}
+.date_selector .button{display: block;position: absolute;top: 0; width:15px; height:15px;line-height:15px; font-weight:normal;color:#FDA156; text-align: center; font-size:10px; overflow:hidden; border: 1px solid #ccc;border-radius:2px;}
+.date_selector .button:hover, .date_selector .button.hover{background:#FDA156;color: #fff;cursor: pointer;border-color:#3a930d;}
+.date_selector .prev{left: 0;}
+.date_selector .next{right: 0;}
+.date_selector table{border-spacing: 0; border-collapse: collapse; clear: both; margin: 0; width:100%;}
+.date_selector th, .date_selector td{width: 1.5em; height: 1.2em; padding: 0 !important; text-align: center !important; color: #666; font-weight: normal; font-size: 0.6em;}
+.date_selector th{font-size: 0.8em;}
+.date_selector td{border:1px solid #f1f1f1; line-height: 1.5em; text-align: center; white-space: nowrap;color:#FDA156; background: #fff;}
+.date_selector td.today{background: #eee;}
+.date_selector td.unselected_month{color: #ccc;}
+.date_selector td.selectable_day{cursor: pointer;}
+.date_selector td.selected{background:#FDA156;color: #fff;font-weight: bold;}
+.date_selector td.selectable_day:hover, .date_selector td.selectable_day.hover{background:#FDA156;color: #fff;}

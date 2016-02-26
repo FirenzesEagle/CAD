@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-confirm-VIPInfo{
+	width: 100%;
+	min-width: 300px;
+}
+/*会员信息确认标题样式*/
+.confirm-VIPInfo-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.confirm-VIPInfo-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 12px;
+	box-sizing: border-box;
+	font-size:14px;
+	color:white;
+}
+.confirm-VIPInfo-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*会员信息样式设置*/
+.VIPInfo{
+	width:94%;
+	padding:5px 0px;
+	margin:5px auto 10px;
+	background:#FDD0CA;
+	border-radius:3px;
+	box-sizing: border-box;
+}
+.VIPInfo-row{
+	padding:5px 8px 5px 8px;
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.VIPInfo-column-one{
+	width:50%;
+	padding-right:15px;
+	box-sizing: border-box;
+}
+/*会员信息提示*/
+.VIPInfo-point{
+	width:94%;
+	height:50px;
+	margin:10px auto;
+	box-sizing: border-box;
+	padding:5px 20px;
+}
+.VIPInfo-point p{
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: center;
+}
+/*选择支付方式*/
+.styleOf-payment{
+	width:94%;
+	margin:30px auto;
+}
+.Alipay-style,.weixin-style{
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    padding:8px 0px;
+	margin:0px 3px;
+	border-bottom:1px solid #D2D2D1;
+}
+.Alipay-img,.weixin-icon{
+	width:40px;
+	height:36px;
+	padding:3px 5px 3px 5px;
+	box-sizing: border-box;
+	display:inline-block;
+	vertical-align: middle;
+	margin:auto 0px;
+}
+.Alipay-img img,.weixin-icon img{
+	width:30px;
+	height:30px;
+}
+.Alipay-info,.weixin-info{
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-sizing: border-box;
+	padding-left:5px;
+	margin:auto 0px;
+}
+.payment-info-point{
+	font-size:12px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+/*选择支付方式按钮*/
+
+.unselect-payment{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	box-sizing: border-box;
+	border:1px solid #B9B9B9;
+	padding:5px;
+	margin:auto 3px;
+}
+.select-payment{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:#61B539;
+	box-sizing: border-box;
+	padding:5px;
+	margin:auto 3px;
+	border: none;
+}
+/*确认支付按钮*/
+.div-confirm-pay{
+	text-align: center;
+}
+.confirm-pay{
+	margin: 0 auto;
+	padding:8px 60px;
+	border: none;
+	background-color:#FF6759;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: none;
+	margin-top:20px;
+}
+

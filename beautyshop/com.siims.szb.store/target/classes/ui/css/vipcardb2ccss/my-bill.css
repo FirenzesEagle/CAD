@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-my-bill{
+	width: 100%;
+	min-width: 300px;
+}
+/*我的账单标题样式*/
+.my-bill-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.my-bill-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 12px;
+	box-sizing: border-box;
+	font-size:14px;
+	color:white;
+}
+.my-bill-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*账单详细信息 表格样式设置*/
+.my-bill-info{
+	width:100%;
+	text-align: center;
+}
+.my-billList-table{
+	width:90%;
+	margin:10px auto;
+	border-collapse: collapse;
+	border:none;
+	box-shadow: 0px 1px 4px #BFBFBF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background-color:#FEECEA;
+	line-height:35px;
+	text-align: center;
+	vertical-align:middle;
+}
+.my-billList-table *{
+	font-size: 12px;
+}
+.my-billList-table th{
+	background-color: #FFA9A2;
+	color:#7D6A63;
+	padding:0 10px;
+	line-height: 2.4;
+}
+.my-billList-table th:first-child{
+	border-radius: 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+}
+.my-billList-table th:last-child{
+	border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+}
+.my-billList-table tr:nth-child(even){
+	background:#FFFFFF;
+}

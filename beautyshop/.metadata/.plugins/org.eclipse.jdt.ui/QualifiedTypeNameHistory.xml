@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.siims.szb.goods.commodityconfig.service.CommodityConfigService"/>
+<fullyQualifiedTypeName name="com.siims.szb.goods.goods.service.GoodsService"/>
+<fullyQualifiedTypeName name="com.siims.szb.goods.goods.data.GoodsInfoData"/>
+<fullyQualifiedTypeName name="com.siims.szb.goods.commodityconfig.data.CommodityConfigData"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.siims.szb.order.facade.MapFacade"/>
+<fullyQualifiedTypeName name="com.siims.szb.utils.ReplyUtil"/>
+<fullyQualifiedTypeName name="com.siims.szb.utils.ResultFacade"/>
+<fullyQualifiedTypeName name="com.siims.szb.utils.ResultType"/>
+<fullyQualifiedTypeName name="com.siims.szb.vipcard.sbp.data.ConsumerVipCardData"/>
+<fullyQualifiedTypeName name="com.siims.szb.vipcard.sbp.service.ConsumerVipCardService"/>
+<fullyQualifiedTypeName name="com.siims.szb.vipcard.sbp.data.VipCardTypeData"/>
+<fullyQualifiedTypeName name="com.siims.szb.vipcard.sbp.service.VipCardTypeService"/>
+<fullyQualifiedTypeName name="com.siims.szb.szbldk.data.StoreInfoData"/>
+<fullyQualifiedTypeName name="com.siims.szb.szbldk.persistence.StorePersistence"/>
+<fullyQualifiedTypeName name="com.siims.szb.vipcard.sbp.data.VipCardConfigData"/>
+<fullyQualifiedTypeName name="com.siims.framework.ioc.ServiceContext"/>
+<fullyQualifiedTypeName name="com.siims.szb.vipcard.sbp.service.VipCardConfigService"/>
+</qualifiedTypeNameHistroy>

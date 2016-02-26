@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"/>
+	<constant name="struts.multipart.saveDir" value="/tmp"/>
+	<!--
+	<package name="com.siims.szb.wxpay" namespace="/siims/szb/pays" extends="siims.framework.default">
+		<action name="weixinpay" class="com.siims.szb.wxpay.WxPayAction" method="WxPay">
+		</action>
+		
+		<action name="towxpay" class="com.siims.szb.wxpay.ToWxPayAction" method="towxpay">
+		</action>
+	</package>
+	
+	<package name="com.siims.szb.wxopenid" namespace="/siims/szb/openid" extends="siims.framework.default">
+		<action name="getopenid" class="com.siims.szb.wxopenid.getOpenIdAction" method="getOpenId">
+		</action>
+		
+		<action name="returnopenid" class="com.siims.szb.wxopenid.returnOpenId" method="returnopenid">
+		</action>
+	</package>
+	-->
+</struts>

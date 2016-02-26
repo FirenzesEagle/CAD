@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+header .log
+{
+	margin-left:100px;
+}
+*{
+	padding:0;
+	margin:0;
+}
+header .userinf
+{
+	margin-right:100px;
+	float:right;
+	margin-top:10px;
+}
+.name,.touxiang
+{
+	vertical-align:middle;
+}
+.content
+{
+	
+	margin:0px;
+	padding:10px;
+}
+.content .pannel
+{
+	float:left;
+	width:15%;
+	margin-top:50px;
+	margin-left:50px;
+}
+button
+{
+	width:100px;
+	height:40px;
+	margin-top:7px;
+	font-size:18px;
+}
+.edit button
+{
+	width:100px;
+	height:20px;
+	font-size:12px;
+}
+.list
+{
+	float:left;
+	width:75%;
+	background-color:#F5F5F5;
+	padding:10px;
+	
+}
+.state li
+{
+	list-style:none;
+	display:inline-block;
+	background-color:white;
+	font-size:larger;
+	padding:8px;
+	box-sizing:border-box;
+}
+.state .selected
+{
+	background-color:#06F;
+	font-weight:bolder;
+	color:white;
+}
+.goodslist1
+{
+	border:gray 1px solid;
+}
+tr
+{
+	border:red 1px solid;
+}
+.even
+{
+	background-color:white;
+}
+.odd
+{
+	background-color:#E1E1E1;
+}
+.title
+{
+	text-align:center;	
+	background-color:#95CAFF;
+	color:#00F;
+	font-size:medium;
+}
+.innertitle
+{
+	font-weight:bolder;
+	font-size:larger;
+	color:#333;
+}
+.upadd
+{
+	float:right;
+}
+.btnlist
+{
+	margin-top:10px;
+}
+.cont
+{
+	margin-top:10px;
+}
+.clearfix:before,.clearfix:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;	
+}
+
+
+.edit
+{
+	position:relative;
+}
+.addgoods
+{
+	display:none;
+	padding:30px;
+	width:270px;
+	background-color:#FFC;
+	z-index:3;
+	position:absolute;
+	left:-332px;
+	top:0px;
+	font-size:14px;
+	line-height:28px;
+	box-shadow:5px 5px 2px #CCCCCC;
+	
+}
+.addgoods #bigbtn
+{
+	width:110px;
+	height:25px;
+}
+.addclass
+{
+	background-color:#999;
+	box-shadow:2px 2px 2px #CCCCCC;
+	float:right;
+	font-size:14px;
+	padding:5px;
+	display:none;
+	position:absolute;
+	top:200px;
+	left:170px;
+	width:47%;
+}
+.itemdescription
+{
+	vertical-align:top;
+}
+label
+{
+	vertical-align:top;
+}
+.additems
+{
+	position:relative;
+}
+.a1,.a2
+{
+	vertical-align:middle;
+	font-weight:700;
+}
+td
+{
+	text-align:center;
+}

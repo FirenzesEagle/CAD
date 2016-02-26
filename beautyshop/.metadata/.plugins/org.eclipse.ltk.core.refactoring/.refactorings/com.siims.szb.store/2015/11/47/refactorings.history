@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;md5.js&apos; to &apos;ldk&apos;&#x0D;&#x0A;- Original project: &apos;com.siims.szb.store&apos;&#x0D;&#x0A;- Destination element: &apos;ldk&apos;&#x0D;&#x0A;- Original element: &apos;md5.js&apos;" description="Copy file" element1="src/main/resources/ui/js/vipcardb2cjs/md5.js" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1447810029206" target="/com.siims.szb.store/src/main/resources/ui/js/ldk" units="0" version="1.0"/>
+</session>

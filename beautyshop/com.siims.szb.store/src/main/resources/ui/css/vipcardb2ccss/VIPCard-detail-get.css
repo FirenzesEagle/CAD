@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-get-VIPCardDetail{
+	width: 100%;
+	min-width:300px;
+}
+/*领取会员卡详情标题样式*/
+.VIPCardDetail-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	text-align: center;
+	border: none;
+}
+.VIPCardDetail-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 14px;
+	font-size:14px;
+	box-sizing: border-box;
+	border-top: none;
+	border-right: none;
+	color:white;
+	
+}
+.VIPCardDetail-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*会员卡基本信息样式设置*/
+.get-VIPCard-baseInfo{
+	width:94%;
+	height:100px;
+	margin:10px auto;
+	background-color:#F78B81;
+	border-radius:3px;
+	color:white;
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.shop-img{
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	padding: 15px 10px;
+}
+.shop-img img{
+	width: 70px;
+	height: 70px;
+}
+.VIPCard-main-info{
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-sizing: border-box;
+	padding:8px 0 5px 0;
+}
+.VIPCard-info{
+	margin-top:15px;
+}
+.VIPCard-info p,.card-type .card-type-name{
+	font-size:12px;
+}
+/*查看我的账单样式设置*/
+.my-bill{
+	position: relative;
+}
+.my-bill-forward{
+	width: 0.5em;
+	height: 0.5em;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-bottom: none;
+	border-left: none;
+	transform: rotate(45deg);
+}
+.bill-one{
+	position:absolute;
+	top:6px;
+	left:75px;
+}
+.bill-two{
+	position:absolute;
+	top:6px;
+	left:80px;
+}
+/*会员卡类型样式设置*/
+.card-type{
+	text-align: center;
+	padding:10px 20px;
+}
+.card-type img{
+	width:35px;
+	height:35px;
+}
+/*会员专享权益*/
+.my-rights{
+	width:94%;
+	margin:60px auto 20px;
+}
+.my-rights img,.get-VIPCardIntro-title img,.shop-index img{
+	width:16px;
+	vertical-align: middle;
+}
+.my-rights span,.get-VIPCardIntro-title span,.shop-index span{
+	vertical-align: middle;
+}
+.my-rights-detail{
+	margin-left:35px;
+	margin-top:8px;
+}
+/*会员卡说明*/
+.get-VIPCard-intro,.shop-index{
+	width:94%;
+	margin:20px auto;
+	position: relative;
+}
+.get-VIPCardIntro-list{
+	list-style:none;
+	margin-top:8px;
+	margin-left:12px;
+}
+.get-VIPCardIntro-list li{
+	list-style:none;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.text-money{
+	padding:0 5px;
+}
+.icon-money{
+	display: inline-block;
+	width:15px;
+	height: 15px;
+	background: url(/wro/wroResources?id=classpath:ui/image/vipcardb2cimages/icon_money.png) no-repeat scroll;
+	background-size: contain;
+}
+/*店铺首页*/
+.shop-index-forward{
+	width: 0.5em;
+	height: 0.5em;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-bottom: none;
+	border-left: none;
+	transform:rotate(45deg);
+-ms-transform:rotate(45deg); 	/* IE 9 */
+-moz-transform:rotate(45deg); 	/* Firefox */
+-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+-o-transform:rotate(45deg); 	/* Opera */
+}
+.forward-one{
+	position:absolute;
+	left:82px;
+	top:9px;
+}
+.forward-two{
+	position:absolute;
+	left:88px;
+	top:9px;
+}
+
+/*会员卡支付按钮样式设置*/
+
+.bt-payByVIPCard{
+	width:200px;
+	display: block;
+	margin:30px auto 30px;
+	box-sizing: border-box;
+	line-height: 30px;
+	box-sizing:border-box;
+	padding:0 40px;
+	border:none;
+	background-color: #FF6759;
+	color: #FBFBFB;
+	font-size:14px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+

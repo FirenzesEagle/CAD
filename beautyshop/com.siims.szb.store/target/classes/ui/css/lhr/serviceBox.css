@@ -1,0 +1,109 @@
+*{
+	padding:0;
+	margin:0;
+	font-size: 16px;
+	outline: none;
+	font-family: "microsoft yahei";
+}
+#mb_con{
+	z-index: 999999;
+	width:250px;
+	position:fixed;
+	background: #FEFBF9;
+	border-radius: 2px;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding:10px;
+} 
+#mb_tit{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color:#333333;
+	padding:10px 15px;
+	background: rgba(255,255,255,0.8);
+	border-bottom: 3px solid #33ACE5;
+	display: none;
+}
+#mb_ico{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top:9px;
+	border:1px solid grey;
+	width:18px;
+	height: 18px;
+	text-align: center;
+	line-height: 16px;
+	cursor: pointer;
+	border-radius: 16px;
+	font-family: "微软雅黑";
+	display: none;
+}
+#mb_id{
+	text-align: center;
+	color: #391F04;
+	line-height: 30px;
+	border-bottom: 1px solid #D7C5B9;
+}
+#mb_msg{
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	box-sizing: border-box;
+	padding:15px 30px;
+}
+#msg_img{
+	width:70px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.serviceInfo{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+}
+.serviceTime{
+	color:#ff6759;
+	line-height: 30px;
+}
+.serviceInfo p{
+	font-size: 14px;
+	line-height: 25px;
+	vertical-align: middle;
+}
+.mbA{
+	color:#360302;
+	text-decoration: none;
+	line-height: 30px;
+}
+.mbA:hover{
+	color: #360302;
+	text-decoration: none;
+}
+
+.mb-last{
+	margin-left: 20px;
+}
+#mb_btnbox{
+	text-align: center;
+	box-sizing: border-box;
+	padding:10px 40px;
+}
+#mb_btn_ok,#mb_btn_no{
+	color:white;
+	border:none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	padding:0 10px;
+	background:#FF6759;
+	font-size: 14px;
+}
+
+

@@ -1,0 +1,56 @@
+#mb_con{
+	z-index: 999999;
+	width:200px;
+	position:fixed;
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	border:1px solid #D2D2D2;
+	overflow: hidden;
+} 
+#mb_tit{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color:#333333;
+	padding:10px 15px;
+	background: rgba(255,255,255,0.8);
+	border-bottom: 3px solid #33ACE5;
+	display: none;
+}
+#mb_ico{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top:9px;
+	border:1px solid grey;
+	width:18px;
+	height: 18px;
+	text-align: center;
+	line-height: 16px;
+	cursor: pointer;
+	border-radius: 16px;
+	font-family: "微软雅黑";
+	display: none;
+}
+#mb_msg{
+	padding:20px;
+	line-height: 20px;
+	font-size: 14px;
+	border-bottom: 1px solid #D2D2D2;
+	text-align: center;
+}
+#mb_btnbox{
+	text-align: center;
+}
+#mb_btn_ok,#mb_btn_no{
+	color:#33ACE5;
+	border:none;
+	height: 30px;
+	line-height: 30px;
+	width:50%;
+	background:transparent;
+}
+#mb_btn_ok{
+	border-right: #D2D2D2 1px solid;
+}
+

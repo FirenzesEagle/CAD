@@ -1,0 +1,32 @@
+INFO  2015-10-14 11:35:20,625 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-14 11:35:20,669 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-14 11:35:21,076 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-14 11:35:21,135 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-14 11:35:21,145 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-14 11:35:21,147 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-14 11:35:21,164 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-14 11:35:21,262 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-14 11:35:21,266 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-14 11:35:23,126 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-14 11:35:24,561 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+ERROR 2015-10-14 21:50:37,921 IO 错误: Connection reset - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:50:43,023 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:50:43,023 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:50:49,679 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:50:49,680 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:51:01,489 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:51:01,490 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:51:47,077 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:51:47,078 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:08,100 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:08,101 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:15,987 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:15,987 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:23,579 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:23,580 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:46,014 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:46,015 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:48,355 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:52:48,355 关闭的连接 - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:56:34,443 error enlisting a JdbcConnectionHandle of a JdbcPooledConnection from datasource xaDBMS in state ACCESSIBLE with usage count 1 wrapping a JDBC LrcXAConnection on oracle.jdbc.driver.T4CConnection@4041739c on a JDBC LrcConnectionHandle on a JDBC LrcXAResource in state NO_TX - SqlExceptionHelper:logExceptions 
+ERROR 2015-10-14 21:56:34,444 关闭的连接 - SqlExceptionHelper:logExceptions 

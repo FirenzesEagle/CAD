@@ -1,0 +1,105 @@
+/**
+ * 绑定逻辑css
+ * by 杨婷
+ */
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+
+body{
+	background: #FFF8F2 scroll 0% 0%;
+}
+.topNav{
+	height:40px;
+	line-height: 40px;
+	color:#FFFFFF;
+	display: -webkit-box;;
+	display: -ms-flexbox;
+	display:-moz-box;
+	position:relative;
+	background:#FDA156 ;
+	width: 100%;
+}
+.nav-wrap-left{
+	border: #FFFFFF solid 3px;
+	margin-left:12px;
+	margin-top:12px;
+	display:block;
+	width:12px;
+	height: 12px !important;
+	max-height: 12px;
+	border-top:none;
+	border-right: none;
+	transform:rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+.nav-header{
+	display: block;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	box-flex:1;
+	text-align: center;
+}
+.container{
+	text-align: center;
+}
+.logo-img{
+	width:40%;
+	max-width:160px;
+	margin-top:100px;
+	margin-bottom: 30px;
+}
+.input-r{
+	background: #FFFFFF;
+	border: none;
+	height:35px ;
+	margin-bottom: 20px;
+	background: #F9E6D8;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	outline: none;
+	box-sizing: border-box;
+	padding:0 10px;
+	color: #898788;
+}
+.w1{
+	width: 80%;
+	max-width: 330px;
+}
+.button-r{
+	border:none;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #EF773B;
+	color: #FFFFFF;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	outline: none;
+}
+@media  (max-height:550px) {
+	.logo-img{
+		margin-top:50px;
+	}
+}
+@media  (min-height:700px) {
+	.logo-img{
+		margin-top:150px;
+	}
+}
+@media  (min-height:800px) {
+	.logo-img{
+		margin-top:200px;
+	}
+}
+@media  (min-height:1000px) {
+	.logo-img{
+		margin-top:300px;
+	}
+}

@@ -1,0 +1,76 @@
+var openid;
+$(function(){
+	openid=decodeURI(getQueryString("openid"));
+	if(openid=="null"||openid=="undefined"||openid==null||openid==undefined||openid==""){
+		var code=decodeURI(getQueryString("code"));
+		//取得openid
+		if(code!="null"&&code!="undefined"){
+			$.ajax({
+				type:"get",
+				url:'http://182.92.4.200/BxyhWeixinServer/getopenid?code='+code,
+				async:false,
+				data:"",
+				dataType:"json",
+				crossDomain:true,
+				success:function (data) {
+					openid = data.openid;
+				},
+				error: function(XMLHttpRequest, textStatus, errorThrown) {
+							//console.log(data);
+			                console.log(XMLHttpRequest.status);
+			              //  alert(XMLHttpRequest.readyState);
+			              //  alert(textStatus);
+			            }
+			});
+		}else{
+			document.write("获取code失败");
+		}
+	}
+	$(".button-r").on("click",function(){
+		var name=$("#name").val();
+		var pwd=$("#pwd").val();
+		//var openId="qqq111";
+		//var openid = getQueryString("openid");
+		console.log(openid);
+		var datatosend={
+			"openid":openid,
+			"username":name,
+			"password":hex_md5(pwd)
+		};
+		
+		if(name===null||name===""||name===undefined){
+			alert("账号不能为空");
+		}else if(pwd===null||pwd===""||pwd===undefined){
+			alert("密码不能为空");
+		}else{
+				$.ajax({
+					type:"get",
+					url:'/siims/szb/StoreInfoAction/storeLogin.jspx',
+					data:datatosend,
+					crossDomain:true,
+					dataType:"json",
+					success:function(data){
+						//alert(data.SUCCESS);
+						if(data.SUCCESS == "true"){
+							alert("登陆成功");
+						}else{
+							alert("登陆失败，请重新登陆");
+						}
+					},
+					error:function(XMLHttpRequest, textStatus, errorThrown) {
+						console.log(XMLHttpRequest.status);
+						console.log(XMLHttpRequest.readyState);
+						console.log(textStatus);
+			        }
+				});
+		}
+	})
+});
+
+//获取链接参数
+function getQueryString(name) {
+	 
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]); return null;
+}

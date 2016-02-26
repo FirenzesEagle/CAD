@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN"  
+"http://jetty.mortbay.org/configure.dtd">
+<Configure id="wac" class="org.eclipse.jetty.webapp.WebAppContext">
+	<New id="avsep" class="org.eclipse.jetty.plus.jndi.Resource">
+		<Arg>jdbc/zy3-oms</Arg>
+		<Arg>
+			<New id="Datasource.Avsep" class="bitronix.tm.resource.jdbc.PoolingDataSource">
+				<Set name="uniqueName">xaDBMS</Set>
+				<Set name="className">bitronix.tm.resource.jdbc.lrc.LrcXADataSource</Set>
+				<Set name="allowLocalTransactions">true</Set>
+				<Get name="driverProperties">
+					<Put name="driverClassName">oracle.jdbc.OracleDriver</Put>
+					<Put name="user">Orcl</Put>
+					<Put name="password">oracle</Put>
+					<!--<Put name="url">jdbc:mysql://127.0.0.1:3306/koala?useUnicode=true&amp;characterEncoding=UTF-8</Put> -->
+					<Put name="url">jdbc:oracle:thin:@182.92.222.75:1521:Orcl</Put>
+				</Get>
+				<Set name="maxPoolSize">10</Set>
+				<Set name="minPoolSize">2</Set>
+				<Call name="init" />
+			</New>
+		</Arg>
+	</New>
+</Configure>  

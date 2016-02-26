@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-VIPCard-payment{
+	width: 100%;
+	min-width: 300px;
+}
+/*会员卡支付（储值卡）标题样式*/
+.VIPCardPay-byMoney-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.VIPCardPay-byMoney-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 14px;
+	font-size:14px;
+	box-sizing: border-box;
+	border-top: none;
+	border-right: none;
+	color:white;
+	
+}
+.VIPCardPay-byMoney-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*会员卡余额提示*/
+.VIPCard-balance{
+	width:94%;
+	margin:40px auto 40px;
+	box-sizing: border-box;
+	padding:5px 20px;
+}
+.VIPCard-balance p{
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: center;
+}
+.VIPCard-balance span{
+	padding:0 3px;
+	color:red;
+}
+/*会员卡支付填写信息样式设置*/
+.payment-info-form{
+	width:75%;
+	margin:50px auto;
+    max-width:400px;
+}
+.payment-info-layer{
+	margin-bottom:15px;
+	padding: 0 10px 10px;
+	box-sizing: border-box;
+	font-size:14px;
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.payment-info-layer .payment-info-label{
+	height:25px;
+	line-height:25px;
+	vertical-align: middle;
+}
+.payment-info-content,.consume-num-content{
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	outline: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	margin-left:8px;
+}
+.payment-info-content input{
+	width:100%;
+	height:25px;
+	border:none;
+	background:#FEECEA;
+	outline:none;
+	box-sizing: border-box;
+	padding:0px 5px;
+}
+.payment-info-content .preferential-price{
+	font-size:12px;
+	padding:0 5px;
+}
+.preferential-price span{
+	font-size:12px;
+}
+.consume-num-content{
+	border-radius:5px;
+	
+}
+/*.consume-num-content .num-min{
+	float: left;
+	box-sizing: border-box;
+	width:30px; 
+	height:25px;
+	margin-left:-100%;
+	position: relative;	
+    left:-30px;
+	border-style: none;
+	border-right:2px solid #FDD8D2;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color:#FEECEA;
+	line-height: 25px;
+	vertical-align: middle;
+	resize: none;
+	outline: inherit;
+	cursor: pointer;	
+}
+.consume-num-content .num-text{
+	box-sizing: border-box;
+	width:100%;
+	height:25px;
+	float:left;
+	border:none;
+	line-height: 25px;
+	vertical-align: middle;
+	text-align: center;
+	background-color:#FEECEA;
+	outline:none;
+}
+.consume-num-content .num-add{
+	box-sizing: border-box;
+	width:30px;
+	height:25px;
+	float:left;
+	margin-left:-30px;
+	position: relative;
+	right:-30px;
+	line-height: 25px;
+	border-style: none;
+	border-left:2px solid #FDD8D2;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color:#FEECEA;
+	vertical-align: middle;
+	resize: none;
+	outline: inherit;
+	cursor: pointer;
+}*/
+/*确认付款按钮*/
+.div-confirm-pay{
+	text-align: center;
+}
+.div-confirm-pay .bt-confirm-payment{
+	margin: 0 auto;
+	padding:8px 60px;
+	border: none;
+	background-color:#FF6759;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: none;
+	margin-top:20px;
+}

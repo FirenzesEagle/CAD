@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-fillout-VIPInfo{
+	width: 100%;
+	min-width: 300px;
+}
+/*会员信息填写标题样式*/
+.fillout-VIPInfo-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.fillout-VIPInfo-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+display:inline-block;
+	width: auto;
+	height: 12px;
+	box-sizing: border-box;
+	font-size:14px;
+	color:white;
+}
+.fillout-VIPInfo-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*会员信息填写样式设置*/
+.info-form{
+	/*width:250px;*/
+	width:75%;
+	margin:50px auto;
+    max-width:400px;
+}
+.info-layer{
+	margin-bottom:15px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.info-content{
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	outline: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	background:#FEECEA;
+	margin-left:8px;
+	height:25px;
+	line-height:25px;
+}
+.info-content select{
+	width:100%;
+	height:100%;
+	border:none;
+	background:transparent;
+	outline:none;
+	font-size: 12px;
+	line-height:25px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.info-content option{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+}
+.info-content option:hover{
+	background-color:#ff6759;
+}
+.info-content input{
+	width:100%;
+	height:100%;
+	border:none;
+	background:transparent;
+	outline:none;
+	box-sizing: border-box;
+	padding:0px 5px;
+}
+/*确认按钮*/
+.bt-div{
+	text-align: center;
+}
+.confirm-VIPInfo{
+	margin: 0 auto;
+	padding:8px 60px;
+	border: none;
+	background-color:#FF6759;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: none;
+	margin-top:40px;
+}

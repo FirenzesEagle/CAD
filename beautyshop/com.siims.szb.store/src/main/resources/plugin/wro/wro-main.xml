@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+	<!-- 通用部分 -->
+	<group name="c_common.common">
+		<js>classpath:ui/js/jquery-1.7.1.min.js</js>
+		<js>classpath:ui/js/baseUrl.js</js>
+	</group>
+	<!-- 李东奎商铺呈现部分  -->
+	<group name="c_shopIndex.shopIndex">
+		<js>classpath:ui/js/ldk/shop-index.js</js>
+		<css>classpath:ui/css/ldk/shopIndex.css</css>
+	</group>
+	<!-- 李东奎购物车部分  -->
+	<group name="c_shopCart.shopCart">
+		<js>classpath:ui/js/ldk/MsgBox.js</js>
+		<js>classpath:ui/js/ldk/shopcart.js</js>
+		<css>classpath:ui/css/ldk/shop-cart.css</css>
+		<css>classpath:ui/css/ldk/MsgBox.css</css>
+	</group>
+	<group name="c_shopCart.orderConfirm">
+		<js>classpath:ui/js/ldk/MsgBox.js</js>
+		<js>classpath:ui/js/ldk/order-confirm.js</js>
+		<css>classpath:ui/css/ldk/order-confirm.css</css>
+		<css>classpath:ui/css/ldk/MsgBox.css</css>
+		<css>classpath:ui/css/ldk/address-list.css</css>
+		<css>classpath:ui/css/ldk/address-add.css</css>
+	</group>
+	<group name="c_shopCart.orderSuccess">
+		<js>classpath:ui/js/ldk/book-fail.js</js>
+		<js>classpath:ui/js/ldk/book-success.js</js>
+		<css>classpath:ui/css/ldk/book-fail.css</css>
+		<css>classpath:ui/css/ldk/book-success.css</css>
+		
+	</group>
+	<!-- 刘明博个人中心部分 -->
+	<group name="c_szb.addresslist">
+		<css>classpath:ui/css/lmb/address-list.css</css>
+		<js>classpath:ui/js/lmb/address-list.js</js>
+	</group>
+	<group name="c_szb.addressadd">
+		<css>classpath:ui/css/lmb/address-add.css</css>
+		<css>classpath:ui/css/lmb/MsgBox.css</css>
+		<js>classpath:ui/js/lmb/address-add.js</js>
+		<js>classpath:ui/js/lmb/MsgBox.js</js>
+	</group>
+	<group name="c_szb.personCenter">
+		<css>classpath:ui/css/lmb/personal-center.css</css>
+		<js>classpath:ui/js/lmb/personal-center.js</js>
+	</group>
+	<!-- 刘峰商品展示部分 -->
+	<group name="c_szb.goods">
+		<css>classpath:ui/css/lf/shop-goodlist.css</css>
+		<js>classpath:ui/js/lf/MsgBox.js</js>
+		<css>classpath:ui/css/lf/MsgBox.css</css>
+		<js>classpath:ui/js/lf/shop-goodlist.js</js>
+	</group>
+	<!-- 李明昆商品详情部分 -->
+	<group name="c_szb.shopDetail">
+		<js>classpath:ui/js/lmk/shop-detail.js</js>
+		<css>classpath:ui/css/lmk/shop-detail.css</css>
+	</group>
+	<!-- 李明昆服务详情部分 -->	
+	<group name="c_szb.serviceDetail">
+		<js>classpath:ui/js/lmk/services-detail.js</js>
+		<css>classpath:ui/css/lmk/service-detail.css</css>
+	</group>
+	<!-- 罗贵木商品订单部分 -->	
+	<group name="c_szb.goodsOrder">
+		<js>classpath:ui/js/lgm/my-order.js</js>
+		<js>classpath:ui/js/lgm/MsgBox.js</js>
+		<css>classpath:ui/css/lgm/MsgBox.css</css>
+		<css>classpath:ui/css/lgm/my-order.css</css>
+	</group>
+	<!-- 凌豪然服务预约部分 -->
+	<group name="c_szb.yuyueForm">
+		<css>classpath:ui/css/lhr/form-yuyue.css</css>
+		<js>classpath:ui/js/lhr/yuyue-form.js</js>
+	</group>
+	<group name="c_szb.yuyueConfirm">
+		<css>classpath:ui/css/lhr/confirm-yuyue.css</css>
+		<css>classpath:ui/css/lhr/serviceBox.css</css>
+		<js>classpath:ui/js/lhr/yuyue-confirm.js</js>
+		<js>classpath:ui/js/lhr/serviceBox.js</js>
+	</group>
+		<group name="c_szb.myOrder">
+		<css>classpath:ui/css/lhr/my-order.css</css>
+		<css>classpath:ui/css/lhr/MsgBox.css</css>
+		<js>classpath:ui/js/lhr/my-order.js</js>
+		<js>classpath:ui/js/lhr/MsgBox.js</js>
+	</group>
+	<!-- 李博会员卡部分 -->
+	<group name="c_vipcard.vipcard">
+		<css>classpath:ui/css/vipcardp2bcss/vipcard.css</css>
+	</group>
+	<group name="c_vipcard.selectType">
+		<js>classpath:ui/js/vipcardp2bjs/vipcardSelectType.js</js>
+	</group>
+	<group name="c_vipcard.vipcardviplist">
+		<js>classpath:ui/js/vipcardp2bjs/vipcardviplist.js</js>
+	</group>
+	<group name="c_md5">
+		<js>classpath:ui/js/vipcardp2bjs/md5.js</js>
+	</group>
+	<group name="c_vipcard.collectmoney">
+		<js>classpath:ui/js/vipcardp2bjs/membershipPay.js</js>
+	</group>
+	<group name="c_vipcard.p2b.Msgbox">
+		<js>classpath:ui/js/vipcardp2bjs/MsgBox.js</js>
+		<css>classpath:ui/js/vipcardp2bcss/MsgBox.css</css>
+	</group>
+	<group name="c_vipcard.p2b.membershipRuleManage">
+		<js>classpath:ui/js/vipcardp2bjs/membershipRuleManage.js</js>
+	</group>
+	<group name="c_vipcard.myvipcard">
+		<css>classpath:ui/css/vipcardb2ccss/my-VIPCard.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/my-VipCard.js</js>
+	</group>
+	
+	<group name="c_vipcard.baseUrl">
+		<js>classpath:ui/js/vipcardb2cjs/baseUrl.js</js>
+	</group>
+	
+	<group name="c_vipcard.get-VIPCard">
+		<css>classpath:ui/css/vipcardb2ccss/get-VIPCard.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/get-VipCard.js</js>
+	</group>
+	
+	<group name="c_vipcard.VIPCard-detail-get">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-detail-get.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-detail-get.js</js>
+	</group>
+	
+	<group name="c_vipcard.my-bill">
+		<css>classpath:ui/css/vipcardb2ccss/my-bill.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/my-bill.js</js>
+	</group>
+	
+	<group name="c_vipcard.VIPCard-pay-byTimes">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-pay-byTimes.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-pay-byTimes.js</js>
+	</group>
+	
+	<group name="c_vipcard.VIPCard-pay-byMoney">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-pay-byMoney.css</css>
+	</group>
+	
+	<group name="c_vipcard.MsgBox">
+		<css>classpath:ui/css/vipcardb2ccss/MsgBox.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/MsgBox.js</js>
+	</group>
+	
+	<group name="c_vipcard.md5">
+		<js>classpath:ui/js/vipcardb2cjs/md5.js</js>
+	</group>
+	
+	<group name="c_vipcard.VIPCard-pay-suc">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-pay-suc.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-pay-suc.js</js>
+	</group>
+	
+	<group name="c_vipcard.VIPCard-detail-notget">
+		<css>classpath:ui/css/vipcardb2ccss/VIPCard-detail-notget.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-detail-noget.js</js>
+	</group>
+	
+	<group name="c_vipcard.fillout-VIPInfo">
+		<css>classpath:ui/css/vipcardb2ccss/fillout-VIPInfo.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/fillout-VIPInfo.js</js>
+	</group>
+	
+	<group name="c_vipcard.confirm-VIPInfo">
+		<css>classpath:ui/css/vipcardb2ccss/confirm-VIPInfo.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/confirm-VipInfo.js</js>
+	</group>
+	
+	<group name="c_vipcard.suc">
+		<css>classpath:ui/css/vipcardb2ccss/VIP-card-suc.css</css>
+		<js>classpath:ui/js/vipcardb2cjs/VipCard-suc.js</js>
+	</group>
+	
+</groups>	

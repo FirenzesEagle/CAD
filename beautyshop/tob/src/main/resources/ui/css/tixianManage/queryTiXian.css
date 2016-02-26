@@ -1,0 +1,28 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: sans-serif,arial,"微软雅黑";
+	font-size: 18px;
+	color: #333333;
+	outline: none;
+}
+body{
+	background: #F3F4F6;
+}
+h1{
+	font-size:26px;
+}
+.query{
+	width:150px;
+	background:#F0F0F0 repeat-x;
+	padding-top:3px;
+	border-top:1px solid #708090;
+	border-right:1px solid #708090;
+	border-bottom:1px solid #708090;
+	border-left:1px solid #708090; 
+	height:auto;
+	cursor:hand;
+}
+th{
+	width:200px;
+}

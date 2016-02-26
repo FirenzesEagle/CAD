@@ -1,0 +1,125 @@
+*{
+	padding:0;
+	margin:0;
+	font-size: 16px;
+	outline: none;
+}
+.serviceBox#mb_con{
+	z-index: 999999;
+	width:290px;
+	position:fixed;
+	background: #FEFDFB;
+	border-radius: 2px;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding:15px 20px;
+} 
+.serviceBox #mb_tit{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color:#333333;
+	padding:10px 15px;
+	background: rgba(255,255,255,0.8);
+	border-bottom: 3px solid #33ACE5;
+	display: none;
+}
+.serviceBox #mb_ico{
+	display: block;
+	position: absolute;
+	right: 10px;
+	top:9px;
+	border:1px solid grey;
+	width:18px;
+	height: 18px;
+	text-align: center;
+	line-height: 16px;
+	cursor: pointer;
+	border-radius: 16px;
+	font-family: "微软雅黑";
+	display: none;
+}
+.serviceBox #mb_id{
+	text-align: center;
+	color: #391F04;
+	line-height: 30px;
+	border-bottom: 1px solid #D7C5B9;
+}
+.serviceBox #mb_msg{
+	line-height: 20px;
+	font-size: 14px;
+	border-bottom: 1px solid #D7C5B9;
+	text-align: center;
+	box-sizing: border-box;
+	padding:15px 30px;
+}
+.serviceBox #msg_img{
+	width:70px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.serviceBox .serviceInfo{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	box-sizing: border-box;
+	padding:0 0 0 10px;
+	max-width:110px;
+}
+.serviceBox .serviceInfo,.serviceTime{
+	color:#360302;
+	line-height: 30px;
+}
+.serviceBox .serviceInfo p{
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.serviceBox .mbA{
+	color:#360302;
+	text-decoration: none;
+	line-height: 30px;
+}
+.serviceBox .mbA:hover{
+	color: #360302;
+	text-decoration: none;
+}
+.serviceBox #mb_person{
+	line-height: 30px;
+	color:#360302;
+	text-align: center;
+	box-sizing: border-box;
+	padding:10px;
+	border-bottom: 1px solid #D7C5B9;
+}
+.serviceBox #mb_person *{
+	vertical-align: middle;
+}
+.serviceBox #mb_person img{
+	width:24px;
+	height: 24px;
+	margin-right: 3px;
+}
+.serviceBox .mb-last{
+	margin-left: 20px;
+}
+.serviceBox #mb_btnbox{
+	text-align: center;
+	box-sizing: border-box;
+	padding:15px 0 5px 0;
+}
+.serviceBox #mb_btn_ok,#mb_btn_no{
+	color:white;
+	border:none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	width:50%;
+	background:#ED5E00;
+}
+
+

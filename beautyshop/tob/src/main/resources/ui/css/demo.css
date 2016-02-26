@@ -1,0 +1,32 @@
+*{
+	padding:0;
+	margin:0;
+	color:#666666;
+	font-family:Microsoft Yahei,"微软雅黑",arial;
+}
+.container{
+	box-sizing:border-box;
+	padding:10px;
+	font-size:16px;
+}
+h1{
+	font-size:20px;
+}
+.btn-group{
+	display:block;
+	box-sizing:border-box;
+	margin:10px 0;
+}
+input[type=text]{
+	border:1px solid #8C8A8B;
+	height:30px;
+	width:200px;
+	padding:5px;
+	box-sizing:border-box;
+}
+button{
+	border:1px solid #FF672B;
+	background:#FFF;
+	box-sizing:border-box;
+	padding:5px 20px;
+}

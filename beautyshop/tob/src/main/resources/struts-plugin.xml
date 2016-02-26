@@ -1,0 +1,9 @@
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="siims.szb.demo" namespace="/siims/szb/demo" extends="siims.framework.default">
+	
+		
+	</package>
+</struts>

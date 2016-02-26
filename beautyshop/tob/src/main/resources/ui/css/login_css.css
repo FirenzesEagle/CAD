@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#8edafe;
+	min-width:600px;
+}
+.container
+{
+	width:35%;
+	margin:0 auto;
+	text-align:center;
+}
+img
+{
+	margin-top:150px;
+}
+form
+{
+	margin-top:50px;
+}
+.username,.pwd
+{
+	height:30px;
+	width:350px;
+}
+button
+{
+	width:350px;
+	height:35px;
+	background-color:#FFF;
+	font-size:16px;
+	font-weight:bolder;
+	color:#36C;
+}

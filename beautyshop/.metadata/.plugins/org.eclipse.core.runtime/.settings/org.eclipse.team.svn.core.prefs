@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/3001400a48870015134de2cc8b6b8e54=3001400a48870015134de2cc8b6b8e54;svn\://192.168.1.155/svn/test;svn\://192.168.1.155/svn/test;branches;tags;trunk;true;d46f0c39-0fda-be4e-9f71-f12a53dffab7;svn\://192.168.1.155/svn/test;;false;<svn\://10.108.209.232\:3690> My Test Repository^<svn\://192.168.1.155\:3690> d46f0c39-0fda-be4e-9f71-f12a53dffab7;;0
+repositories/706e7189928e00151f4ed992b77931ac=706e7189928e00151f4ed992b77931ac;svn\://192.168.1.188/svn/szb;svn\://192.168.1.188/svn/szb;branches;tags;trunk;true;;;;false;;;0

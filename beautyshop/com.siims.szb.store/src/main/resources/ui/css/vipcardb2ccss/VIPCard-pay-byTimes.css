@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-payment-VIPCard{
+	width: 100%;
+	min-width: 300px;
+}
+/*会员卡支付（计次卡）标题样式*/
+.VIPCardPay-byTimes-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.VIPCardPay-byTimes-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 14px;
+	font-size:14px;
+	box-sizing: border-box;
+	border-top: none;
+	border-right: none;
+	color:white;
+	
+}
+.VIPCardPay-byTimes-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*会员卡余额提示*/
+.VIPCard-remain-times{
+	width:94%;
+	margin:40px auto 40px;
+	box-sizing: border-box;
+	padding:5px 20px;
+}
+.VIPCard-remain-times p{
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: center;
+}
+.VIPCard-remain-times span{
+	padding:0 3px;
+	color:red;
+}
+/*会员卡支付填写信息样式设置*/
+.payment-info-form{
+	width:75%;
+	margin:50px auto;
+    max-width:400px;
+}
+.payment-layer{
+	margin-bottom:15px;
+	padding: 0 10px 10px;
+	box-sizing: border-box;
+	font-size:14px;
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.payment-layer .payment-label{
+	height:25px;
+	line-height:25px;
+	vertical-align: middle;
+}
+.payment-content,.consume-times-content{
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	outline: none;
+	word-wrap: break-word;
+	word-break: break-all;
+	margin-left:8px;
+}
+.timeResult{
+	display: -moz-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.timeResult .times-text{
+	display: block;
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	height: 25px;
+	line-height: 25px;
+	vertical-align: middle;
+	text-align: center;
+	background-color:#FEECEA;
+	outline:none;
+	color:#8C8C8C ;
+	font-size: 12px;
+}
+.timeResult .times-min{
+	display: block;
+	box-sizing: border-box;
+	width:30px;
+	height:25px;
+	border-style: none;
+	border-right:2px solid #FDD8D2;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color:#FEECEA;
+	line-height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	color:#8C8C8C ;
+	font-size: 16px;
+}
+.timeResult .times-add{
+	display: block;
+	box-sizing: border-box;
+	width:30px;
+	height:25px;
+	border-style: none;
+	border-left:2px solid #FDD8D2;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color:#FEECEA;
+	line-height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	color:#8C8C8C ;
+	font-size: 16px;
+}
+.payment-content input{
+	width:100%;
+	height:25px;
+	border:none;
+	background:#FEECEA;
+	outline:none;
+	box-sizing: border-box;
+	padding:0px 5px;
+}
+
+/*对不起，您的余额不足*/
+.prompt{
+	box-sizing: border-box;
+	padding-left: 5px;
+	display: none;
+}
+ .no-remain-money{
+	font-size:12px;
+	margin-left:-25px;
+	margin-right:-10px;
+	color:#E76D5E;
+}
+.consume-times-content{
+	border-radius:5px;
+}
+
+/*确认付款按钮*/
+.div-confirm-pay{
+	text-align: center;
+}
+.div-confirm-pay .bt-confirm-payment{
+	margin: 0 auto;
+	padding:8px 60px;
+	border: none;
+	background-color:#FF6759;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: none;
+	margin-top:20px;
+}

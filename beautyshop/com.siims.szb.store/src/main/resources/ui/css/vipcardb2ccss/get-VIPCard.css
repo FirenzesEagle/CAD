@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-get-VIPCard{
+	width: 100%;
+	float: left;
+	min-width: 300px;
+}
+/*我的会员卡标题样式*/
+.get-VIPCard-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.get-VIPCard-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 12px;
+	box-sizing: border-box;
+	font-size:14px;
+	color:white;
+}
+.get-VIPCard-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+.get-VIPCard-title img{
+	position:absolute;
+	width:20px;
+	height:20px;
+	right:15px;
+	top:10px;
+}
+/*所有店铺会员卡样式设置*/
+.all-VIPCards{
+	margin-top:8px;
+}
+.all-VIPCard-list{
+	width:94%;
+	margin:0 auto;
+	color:white;
+}
+.all-VIPCard-list .VIPCard-list-detail{
+	height:81px;
+	border-radius:3px;
+	margin-bottom:8px;
+	vertical-align: middle;
+	position:relative;
+}
+.VIPCard-list-detail img{
+	width: 40px;
+	height: 40px;
+	padding: 8px 5px 8px 10px;
+	vertical-align: middle;
+}
+.shop-name{
+	word-break: break-all;
+}
+/*立即领取*/
+.get-atOnce{
+	position:absolute;
+	top:20px;
+	right:15px;
+	z-index: 10;
+}
+.card-type{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	background-color:#000000; 
+    background-color:rgba(0,0,0,0.2); 
+}
+.card-type p{
+	margin-left:10px;
+	padding:3px 0;
+}
+.VIPCard1{
+	background-color:#FF6759;
+}
+.VIPCard2{
+	background-color:#CEA8F3;
+}
+.VIPCard3{
+	background-color:#C9CD5F;
+}

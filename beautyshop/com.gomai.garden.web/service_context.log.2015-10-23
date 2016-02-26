@@ -1,0 +1,143 @@
+INFO  2015-10-23 09:42:38,068 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 09:42:38,095 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 09:42:38,658 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 09:42:38,712 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 09:42:38,718 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 09:42:38,719 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 09:42:38,729 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 09:42:38,826 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 09:42:38,829 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 09:42:41,163 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 09:42:42,380 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:14:53,465 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:14:53,489 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:14:54,061 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:14:54,116 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:14:54,123 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:14:54,124 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:14:54,135 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:14:54,232 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:14:54,235 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:14:56,340 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:14:58,714 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:16:08,031 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:16:08,058 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:16:08,409 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:16:08,472 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:16:08,482 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:16:08,482 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:16:08,497 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:16:08,630 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:16:08,634 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:16:11,110 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:16:12,348 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:22:31,663 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:22:31,690 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:22:32,040 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:22:32,098 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:22:32,105 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:22:32,106 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:22:32,117 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:22:32,212 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:22:32,217 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:22:34,344 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:22:35,521 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:27:57,930 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:27:57,953 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:27:58,326 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:27:58,383 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:27:58,390 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:27:58,391 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:27:58,402 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:27:58,495 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:27:58,498 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:28:00,582 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:28:01,724 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:32:28,026 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:32:28,051 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:32:28,411 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:32:28,469 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:32:28,475 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:32:28,476 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:32:28,487 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:32:28,580 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:32:28,584 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:32:30,619 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:32:31,764 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:34:53,884 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:34:53,908 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:34:54,247 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:34:54,305 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:34:54,312 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:34:54,313 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:34:54,325 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:34:54,416 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:34:54,419 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:34:56,521 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:34:57,636 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:36:53,040 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:36:53,065 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:36:53,442 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:36:53,500 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:36:53,507 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:36:53,507 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:36:53,520 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:36:53,637 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:36:53,641 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:36:55,893 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:36:57,103 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:39:43,453 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:39:43,477 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:39:43,915 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:39:43,977 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:39:43,984 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:39:43,984 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:39:43,997 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:39:44,109 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:39:44,113 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:39:46,187 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:39:47,420 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 10:44:52,821 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:44:52,845 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 10:44:53,215 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 10:44:53,272 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:44:53,279 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:44:53,279 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 10:44:53,291 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 10:44:53,385 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:44:53,389 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 10:44:55,506 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 10:44:56,731 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 15:36:17,288 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 15:36:17,315 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 15:36:17,806 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 15:36:17,860 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 15:36:17,867 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 15:36:17,868 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 15:36:17,878 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 15:36:17,964 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 15:36:17,969 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 15:36:20,091 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 15:36:21,527 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 17:28:41,612 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 17:28:41,652 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 17:28:46,397 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 17:28:46,452 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 17:28:46,459 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 17:28:46,459 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 17:28:46,470 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 17:28:46,565 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 17:28:46,568 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 17:28:48,599 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 17:28:50,180 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 
+INFO  2015-10-23 17:52:20,990 正在确定数据库环境，请稍候... - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 17:52:21,013 已经确定当前运行的数据库环境为  Oracle,事务管理采用 JTA 方式，系统将根据所在数据库环境进行初始化. - MyBatisEnvironmentProber:queryDatabaseEnvironment 
+INFO  2015-10-23 17:52:21,360 INFO:当前运行的应用服务器是 jetty/7.6.15.v20140411 - ApplicationServerEnvironment:<init> 
+INFO  2015-10-23 17:52:21,418 Wro4j's Context initializing.. - Wro4jContextInitializer:start 
+INFO  2015-10-23 17:52:21,425 Successfully loaded wro4j properties (com/siims/framework/utils/wro/wro.properties) file from classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 17:52:21,425 No custom wro4j properties file found in classpath - Wro4jContextInitializer:createProperties 
+INFO  2015-10-23 17:52:21,435 Wro4j's Context initialized - Wro4jContextInitializer:start 
+INFO  2015-10-23 17:52:21,544 MyBatis Mapper Configuration Parsing... - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 17:52:21,547 MyBatis Mapper Configuration Parsed. - XMLConfigBuilderExtensionHelper:parseJavassist 
+INFO  2015-10-23 17:52:23,582 hibernate jta flatform:org.hibernate.service.jta.platform.internal.BitronixJtaPlatform - HibernateGuiceModule:createHibernateConfiguration 
+INFO  2015-10-23 17:52:24,890 CacheManager: No custom properties file found in classpath - CacheConfig:<clinit> 

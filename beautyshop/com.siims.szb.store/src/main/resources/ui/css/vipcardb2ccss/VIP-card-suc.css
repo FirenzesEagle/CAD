@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei",arial;
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background-color:#FFFBFA;
+}
+.page-VIPCard-suc{
+	width: 100%;
+	min-width: 300px;
+}
+/*会员卡办理成功标题样式*/
+.VIPCard-suc-title{
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color:#FF6759;
+	border: none;
+}
+.VIPCard-suc-title .nav{
+	position: absolute;
+	left:14px;
+	margin-top:14px;
+	display:inline-block;
+	width: auto;
+	height: 12px;
+	box-sizing: border-box;
+	font-size:14px;
+	color:white;
+}
+.VIPCard-suc-title p{
+	margin:auto;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+/*办理结果信息样式设置*/
+.container{
+	width: 100%;
+	text-align: center;
+	min-width:300px;
+}
+.result-layer{
+	background-color:#FAD2D0;
+	color:white;
+	text-align: center;
+}
+.result-layer img{
+	padding-top:20px;
+	max-width:180px;
+	min-width:180px;
+}
+div.result-text p{
+	color:#FF6457;
+	line-height: 20px;
+}
+div.result-text{
+	box-sizing: border-box;
+	padding:10px 20px;
+	word-break: break-all;
+}
+/*按钮样式设置*/
+div.button-group{
+	margin:50px auto 0;
+	width:70%;
+	max-width:300px;
+	min-width: 250px;
+}
+.button-a{
+	text-decoration: none;
+
+}
+.button-a:hover{
+	text-decoration: none;
+}
+.bt-in-shop{
+	float: left;
+	display: block;
+	box-sizing: border-box;
+	line-height: 30px;
+	padding:0 10px;
+	border: none;
+	color:white;
+	background-color:#FF6759;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.bt-look-VIPCard{
+	float: right;
+	display: block;
+	box-sizing: border-box;
+	line-height: 30px;
+	padding:0 10px;
+	border: none;
+	color:white;
+	background-color:#FF6759;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.clearfix:after,.clearfix:before{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;/*IE < 8*/
+}
